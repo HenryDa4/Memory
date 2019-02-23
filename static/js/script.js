@@ -99,7 +99,7 @@ function revealCard(event) {
                 hideACard(cardsPicked[1]);
                 cardsPicked = [];
             }
-            window.setTimeout(hidePickedCards, 1000);
+            window.setTimeout(hidePickedCards, 500);
         }
     }
 }
